@@ -98,3 +98,64 @@ flowchart LR
   %% Over time, traffic shifts:
   click Proxy "Traffic shift: 100% ➔ 0% legacy"
 ```
+
+---
+
+## 4. Bulkhead & Circuit Breaker
+
+**How It Works**
+
+* **Bulkhead**: Isolates resources (threads, connections) into compartments so failures in one compartment don’t affect others.
+* **Circuit Breaker**: Wraps calls to external or risky services; trips to stop calls when failures exceed thresholds, then resets after a cooldown.
+
+**Why It Scales**
+
+* **Failure Isolation**: Prevents cascading failures; one slow or failing component doesn’t degrade whole system.
+* **Resilience**: Circuit breakers protect service endpoints, enabling graceful degradation and automated recovery.
+
+**Caveats**
+
+* **Configuration Complexity**: Requires tuning thresholds and timeouts per service characteristics.
+* **Monitoring Overhead**: Must track health metrics and state of each circuit/bulkhead.
+
+**Diagram**
+
+```mermaid
+flowchart TD
+  Client --> ServiceA
+  ServiceA -->|Call + Bulkhead| BulkheadPool
+  BulkheadPool --> ServiceB
+  ServiceB -->|Failure| CircuitBreaker
+  CircuitBreaker -->|Trips| FallbackResponse
+  CircuitBreaker -->|Resets| ServiceB
+```
+
+---
+
+## 5. Saga (Distributed Transactions)
+
+**How It Works**
+
+* Splits a distributed transaction into a sequence of local transactions across multiple services.
+* Each service publishes an event; subsequent services subscribe and perform compensating actions on failure.
+
+**Why It Scales**
+
+* **Data Consistency**: Maintains eventual consistency without locking across services.
+* **Loose Coupling**: Services interact via events, reducing synchronous dependencies.
+
+**Caveats**
+
+* **Complex Compensation Logic**: Must handle rollback operations carefully.
+* **Traceability**: Requires robust tracking to correlate distributed steps and failures.
+
+**Diagram**
+
+```mermaid
+flowchart LR
+  Start --> ServiceA[Service A: Local Tx1]
+  ServiceA -->|Event1| ServiceB[Service B: Local Tx2]
+  ServiceB -->|Event2| ServiceC[Service C: Local Tx3]
+  ServiceC -->|Success| End
+  ServiceB -->|Failure| CompensateA[Compensate Tx1]
+```

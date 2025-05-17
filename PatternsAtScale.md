@@ -1,6 +1,6 @@
 # Architectural Patterns for Scale
 
-A consolidated overview of key patterns—**CQRS**, **Fan‑out + Worker Pool**, and **Strangler Fig**—including descriptions and Mermaid diagrams.
+A consolidated overview of key patterns—**CQRS**, **Fan‑out + Worker Pool**, **Strangler Fig**, **Bulkhead**, **Circuit breaker** and **Saga**—including descriptions and Mermaid diagrams.
 
 ---
 

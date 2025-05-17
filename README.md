@@ -26,6 +26,4 @@ Battle-tested architectural patterns and performance strategies for enterprise p
 - Performance readiness checklist
 - GitHub Actions for perf test automation
 
-## 📊 Dashboards
-- TBD :Sample Grafana/Loki dashboards
-- TBD: Performance regression tracking visuals
+

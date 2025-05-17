@@ -1,4 +1,4 @@
-##Use LLMs to surface hidden risks in design/code/traffic patterns
+
 # Using LLMs to Surface Hidden Architectural Risks
 
 | Stage                        | Traditional Pain                                                       | How an LLM Helps                                                                                                                                                                      | Quick Win                                                                        |

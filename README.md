@@ -7,14 +7,13 @@ Battle-tested architectural patterns and performance strategies for enterprise p
 ## ✅ Architecture Patterns
 - Event-driven services
 - Read-write separation
-- Resilient messaging queues (Kafka, NATS)
-- Caching layers (Redis, CDN)
+- Resilient messaging queues 
+- Caching layers 
 
 ## 🧪 Performance Testing
 - JMeter setup for CI
 - Real User Monitoring (LCP, FID, CLS)
-- P99 latency tracking
-- Avoiding test client overhead
+- P90 latency tracking
 
 ## 🤖 AI for Scalability
 - Anomaly detection agents
@@ -24,6 +23,3 @@ Battle-tested architectural patterns and performance strategies for enterprise p
 ## 📋 Checklists
 - Architecture Review Board template
 - Performance readiness checklist
-- GitHub Actions for perf test automation
-
-

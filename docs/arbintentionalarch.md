@@ -1,4 +1,4 @@
-##ARB & Intentional Architecture
+## ARB & Intentional Architecture
 
 ## Why Intentional Architecture Is Critical
 

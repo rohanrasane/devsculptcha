@@ -5,9 +5,12 @@ DevSculptcha is a curated, hands‑on repository for software architects, senior
 Inside you’ll find production‑ready reference patterns, decision records, review templates, and AI‑augmented tools that transform “good‑enough code” into intentional, scalable architecture.
 
 [Intentional Architecture](docs/arbintentionalarch.md)
+<br>[My story of From Crisis to Resilience](docs/shortcircuit.md)
+
+My talks
 <br>[Managing the employee center performance](https://youtu.be/vcNUxkO0N6o?si=DV-dbrEtNpNukVvN)
 <br>[Integration Strategies and best practices](https://youtu.be/O297msnxB8Q?si=J-goqC3UeNRrLumY)
-<br>[My story of From Crisis to Resilience](docs/shortcircuit.md)
+
 > **This space is ever evolving — new patterns, guardrails, and AI workflows land here every sprint :)**  
 > *“Scale isn’t a traffic number; it’s the architectural leverage you’ve baked into every default.”*
 

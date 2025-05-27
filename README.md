@@ -6,6 +6,7 @@ Inside you’ll find production‑ready reference patterns, decision records, re
 
 [Intentional Architecture](docs/arbintentionalarch.md)
 <br>[My story : From Crisis to Resilience](docs/shortcircuit.md)
+<br>[Forward Looking : How to augment AI in Architecture for identyfying risks](docs/identifyrisks.md)
 
 My talks
 <br> - [Managing the employee center performance](https://youtu.be/vcNUxkO0N6o?si=DV-dbrEtNpNukVvN)

@@ -64,3 +64,5 @@ An Architecture Review Board (ARB) is more than a compliance gate—it’s the s
 ---
 
 **Bottom line:** An ARB transforms architecture from ad-hoc decisions into a disciplined practice—where every service, interface, and data flow is designed with clear, organization-wide intent.
+
+<br>[ARB Template](docs/arbtemplate.md)

@@ -75,4 +75,4 @@ Platform engineering isn’t just about keeping the lights on. It’s about desi
 If you’re just stepping into this space: Welcome. The chaos will find you — but with the right patterns, you’ll be ready.
 
 
-Here are some more patterns that I have been using: <br>[Patterns at scale](/PatternsAtScale.md)
+Here are some more patterns that I have been using: <br>[Patterns at scale](PatternsAtScale.md)

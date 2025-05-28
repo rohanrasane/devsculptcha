@@ -17,6 +17,6 @@ My talks
 > *“Scale isn’t a traffic number; it’s the architectural leverage you’ve baked into every default.”*
 
 If you're passionate about platform thinking, resilient design, or AI for engineering, let’s connect!
-📧 Email: rohan.rasane@wsu.edu🔗 LinkedIn: linkedin.com/in/rohanrasane
+📧 Email: rohan.rasane@wsu.edu LinkedIn: (https://www.linkedin.com/in/rohanrasane)
 
 

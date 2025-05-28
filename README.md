@@ -15,5 +15,9 @@ My talks
 <br> - Panel talk on Innovations in Business 2024
 > **This space is ever evolving — new patterns, guardrails, and AI workflows land here every sprint :)**  
 > *“Scale isn’t a traffic number; it’s the architectural leverage you’ve baked into every default.”*
+>
+> If you're passionate about platform thinking, resilient design, or AI for engineering, let’s connect!
+
+📧 Email: rohan.rasane@wsu.edu🔗 LinkedIn: linkedin.com/in/rohanrasane
 
 

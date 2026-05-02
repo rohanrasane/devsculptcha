@@ -11,7 +11,7 @@ Inside you’ll find production‑ready reference patterns, decision records, re
 My talks
 <br> - [Managing the employee center performance](https://youtu.be/vcNUxkO0N6o?si=DV-dbrEtNpNukVvN)
 <br> - [Integration Strategies and best practices](https://youtu.be/O297msnxB8Q?si=J-goqC3UeNRrLumY)
-<br> - Architecture AI Conference on May 28th, 2025 Geekle Software Architecture Glocal Summit(docs/Scaling%20and%20Optimizing%20Enterprise%20Apps.pdf)
+<br> - [Architecture AI Conference on May 28th, 2025 Geekle Software Architecture Glocal Summit](docs/Scaling%20and%20Optimizing%20Enterprise%20Apps.pdf)
 <br> - Friction Free Dev and Ops 2019
 <br> - Panel talk on Innovations in Business 2024
 > **This space is ever evolving — new patterns, guardrails, and AI workflows land here every sprint :)**  
